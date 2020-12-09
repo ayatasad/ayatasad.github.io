@@ -1,0 +1,32 @@
+h1.om-rubrik {
+  font-size: 2rem;
+}
+
+.form-style input[type="text"],
+.form-style input[type="email"],
+.form-style textarea
+{
+
+	outline: none;
+	display: block;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+	height: 45px;
+  font-size: 1rem;
+
+}
+.form-style input[type="button"],
+.form-style input[type="submit"]{
+  font-size: 1rem;
+	background-color: #FF6699;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	padding: 8px 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+  border: 0;
+}
